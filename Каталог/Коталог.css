@@ -1,0 +1,170 @@
+{
+  padding: 0;
+  font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+body{
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+h1 {
+  font-family: inherit;
+  font-size: 30px;
+  margin: 0 auto;
+}
+h3{
+  font-family: 400;
+  font-size: 20px;
+}
+h4{
+  margin: 0 auto;
+  color: #212529;
+  font-size: 13px;
+  font-weight: 400;
+
+}
+a{
+    text-decoration: none;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+section{
+  margin-top: 20px;
+}
+.div{
+  display: block;
+}
+.container{
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+header{
+  height: 50px;
+  background-color: #343a40;
+  position: relative;
+}
+.line{
+  width: 100%;
+  height: 4px;
+  background-color: #f2ca00;
+}
+.head_text{
+  font-family: Myriad Pro;
+  font-weight: regular;
+  text-decoration: none;
+  color: white;
+  margin-left: 30px;
+}
+.head_text:hover{
+  color: #f2ca00;
+}
+.head_text_login{
+  font-family: Myriad Pro;
+  font-weight: regular;
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+}
+.Anchor{
+  margin: 15px 0;
+}
+.login{
+  margin: 15px 0;
+}
+.head{
+  display: flex;
+}
+.head_1{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.logo{
+  width: 100px;
+  color: white;
+  height: 50px;
+  padding-top: 5px;
+}
+
+
+.filter{
+  width: 100%;
+  display: block;
+  border: 1px solid #f2ca00;
+  background-color: #fff;
+  margin-top: 30px;
+}
+.head_filter{
+  height: 50px;
+  width: 100%;
+  background-color: #f2ca00;
+}
+.text_head_filter{
+  font-size: 25px;
+  color: white;
+  margin-left: 20px;
+}
+.Filter_body{
+  padding: 20px;
+  display: flex;
+}
+.Filter_column{
+  width: 20%;
+}
+.Filter_back{
+  padding: 20px;
+}
+.Filter_column_text{
+  padding-left: 20px;
+}
+.Filter_column_kategories{
+  padding-left: 20px;
+}
+.Category{
+  margin-top: 10px;
+  display: flex;
+}
+.Category_text{
+  margin-left: 5px;
+}
+.checkbox{
+  width: 16px;
+  height: 16px;
+  margin: 0;
+}
+
+.select{
+  position: relative;
+  margin-bottom: 1rem;
+  margin-left: 20px;
+}
+.select::after{
+  content: "";
+  display: block;
+  border-style: solid;
+  border-width: 6px 6px 0 6px;
+  border-color: #000 transparent transparent transparent;
+
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  z-index: 1;
+}
+.select select{
+  background: none;
+  border: 0;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #ccc;
+  padding: .3rem 1rem;
+  font-size: 20px;
+}
