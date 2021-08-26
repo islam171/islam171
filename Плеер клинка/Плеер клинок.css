@@ -1,0 +1,219 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+body{
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+h1 {
+  font-family: inherit;
+  font-size: 30px;
+  margin: 0 auto;
+}
+h2{
+  font-family: cursive;
+  font-size: 30px;
+
+}
+h4{
+  margin: 0 auto;
+  color: #212529;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+h3{
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #f2ca00;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+section{
+  margin: 0 auto;
+}
+.div{
+  display: block;
+}
+.container{
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+
+}
+
+header{
+  height: 50px;
+  background-color: #343a40;
+  position: relativs;
+}
+.White_fon{
+  background-color: White;
+  height: 100%;
+}
+.line{
+  width: 100%;
+  height: 4px;
+  background-color: #f2ca00;
+}
+.head_text{
+  font-family: Myriad Pro;
+  font-weight: regular;
+  text-decoration: none;
+  color: white;
+  margin-left: 30px;
+}
+.head_text:hover{
+  color: #f2ca00;
+}
+.head_text_login{
+  font-family: Myriad Pro;
+  font-weight: regular;
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+}
+.Anchor{
+  margin: 15px 0;
+}
+.login{
+  margin: 15px 0;
+  margin-right: 30px;
+}
+.head{
+  display: flex;
+}
+.head_1{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.logo{
+  width: 100px;
+  color: white;
+  height: 50px;
+  padding-top: 5px;
+}
+.discreption{
+  display: flex;
+  width: 100%;
+  height: auto;
+
+}
+.img{
+  width: 250px;
+  height: 350px;
+  margin: 15px;
+}
+.anime_disc{
+  width: 73%;
+  margin-top: 10px;
+}
+.line_1{
+  width: 100%;
+  height: 1px;
+  background-color: silver;
+  margin: 20px 0px;
+
+}
+.discrep{
+  margin-top: 10px;
+  height: 100%;
+}
+.status{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+.status_tip{
+  width: 35%;
+  margin: 0 auto;
+}
+.status_znachenie{
+  width: 60%;
+}
+.anime_discBlock{
+  margin: 30px 15px 0px 15px;
+  padding-bottom: 30px;
+}
+
+
+.Video_block{
+
+}
+.Black_fon{
+   background-color:  #343a40;
+}
+.name_video{
+  font-size: 20px;
+  margin: 0 auto;
+  width: 100px;
+  padding: 15px 0px;
+}
+.name_video h3{
+  color: white;
+}
+.pleer{
+  display: flex;
+  justify-content: space-between;
+}
+.video{
+  width: 60%;
+  height: 400px;
+  margin-right: 20px;
+}
+video{
+  width: 100%;
+  height: 100%;
+}
+.video_stats{
+  margin: 0 auto;
+  width: 40%;
+  padding: 11px 20px;
+}
+.spisok_serii{
+  width: 100%;
+  height: 100%;
+    color: white;
+    background-color:  #343a40;
+}
+.spisok_serii option{
+
+      padding-left: 20px;
+}
+.spisok_serii option:hover{
+  color: #f2ca00;
+}
+
+
+
+footer{
+  height: 50px;
+  background-color: #343a40;
+}
+.text{
+  display: flex;
+  padding-top: 15px;
+  width: 50%;
+}
+.text_pod a{
+  color: white;
+}
+.text_pod a:hover{
+  color: #f2ca00;
+}
+.iii{
+  height: 400px;
+}
