@@ -4,7 +4,7 @@
 
 - 🌍  I'm based in Almaty
 - 🧠  I'm currently learning Programming
-- 💬  Ask me about I'm a secret Spider-Man... but I don't tell anyone.
+- 💬  I'm a secret Spider-Man... but I don't tell anyone.
 
 ---
 
